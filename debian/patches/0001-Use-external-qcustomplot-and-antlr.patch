@@ -1,0 +1,48 @@
+From: Arto Jantunen <viiru@debian.org>
+Date: Fri, 25 Jul 2014 16:28:47 +0300
+Subject: Use external qcustomplot and antlr
+
+---
+ CMakeLists.txt | 10 +---------
+ 1 file changed, 1 insertion(+), 9 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 4047802..27e7334 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -7,13 +7,9 @@ if(NOT CMAKE_BUILD_TYPE)
+     set(CMAKE_BUILD_TYPE "Release")
+ endif()
+ 
+-set(ANTLR_DIR libs/antlr-2.7.7)
+ set(QHEXEDIT_DIR libs/qhexedit)
+-set(QCUSTOMPLOT_DIR libs/qcustomplot-source)
+ 
+-add_subdirectory(${ANTLR_DIR})
+ add_subdirectory(${QHEXEDIT_DIR})
+-add_subdirectory(${QCUSTOMPLOT_DIR})
+ 
+ if(USE_QT5)
+ 	find_package(Qt5Widgets REQUIRED)
+@@ -174,9 +170,7 @@ endif(EXTRAPATH)
+ 
+ include_directories(
+ 		"${CMAKE_CURRENT_BINARY_DIR}"
+-		${ANTLR_DIR}
+ 		${QHEXEDIT_DIR}
+-		${QCUSTOMPLOT_DIR}
+ 		${ADDITIONAL_INCLUDE_PATHS}
+ 		src)
+ 
+@@ -194,10 +188,7 @@ if(USE_QT5)
+ endif()
+ add_dependencies(${PROJECT_NAME} antlr qhexedit qcustomplot)
+ 
+-link_directories(
+-		"${CMAKE_CURRENT_BINARY_DIR}/${ANTLR_DIR}"
+-		"${CMAKE_CURRENT_BINARY_DIR}/${QHEXEDIT_DIR}"
+-		"${CMAKE_CURRENT_BINARY_DIR}/${QCUSTOMPLOT_DIR}")
++link_directories("${CMAKE_CURRENT_BINARY_DIR}/${QHEXEDIT_DIR}")
+ 
+ target_link_libraries(${PROJECT_NAME}
+ 		antlr

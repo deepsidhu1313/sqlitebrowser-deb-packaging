@@ -1,0 +1,59 @@
+sqlitebrowser (3.10.100ubuntu1) UNRELEASED; urgency=medium
+
+  * Stable Build
+
+ -- nika <linuxgndu@gmail.com>  Thu, 21 Sep 2017 17:00:59 -0500
+
+sqlitebrowser (3.10.1) UNRELEASED; urgency=medium
+
+  * Stable Build
+
+ -- nika <linuxgndu@gmail.com>  Thu, 21 Sep 2017 16:50:08 -0500
+
+sqlitebrowser (3.8.99ubuntu1) UNRELEASED; urgency=medium
+
+  * Fix For naming 
+
+ -- nika <linuxgndu@gmail.com>  Thu, 18 Aug 2016 20:13:54 -0500
+
+sqlitebrowser (3.8.0~trusty1) trusty; urgency=medium
+
+  * Updated to new Version
+
+ -- nika <linuxgndu@gmail.com>  Sun, 27 Dec 2015 22:29:59 -0600
+
+sqlitebrowser (3.7.0~trusty1ppa1) trusty; urgency=medium
+
+  * Reuploading 
+
+ -- nika <linuxgndu@gmail.com>  Mon, 15 Jun 2015 22:43:10 +0530
+
+sqlitebrowser (3.7.0~trusty1) trusty; urgency=medium
+
+  * Updated to New Version
+
+ -- nika <linuxgndu@gmail.com>  Mon, 15 Jun 2015 22:30:25 +0530
+
+sqlitebrowser (3.6.0~trusty1ppa3) trusty; urgency=medium
+
+  * Updated On Nightly Builds
+
+ -- nika <linuxgndu@gmail.com>  Fri, 12 Jun 2015 00:02:51 +0530
+
+sqlitebrowser (3.6.0~trusty1ppa2) trusty; urgency=medium
+
+  * Downgraded Version to 3.6.0 from 3.6.99 
+
+ -- Gajj Linux <linuxgndu@gmail.com>  Tue, 28 Apr 2015 21:47:58 +0530
+
+sqlitebrowser (3.6.0~trusty1ppa1) trusty; urgency=medium
+
+  * Fixed Naming
+
+ -- Gajj Linux <linuxgndu@gmail.com>  Tue, 28 Apr 2015 10:15:42 +0530
+
+sqlitebrowser (3.6.0~trusty1) trusty; urgency=medium
+
+  * New Stable Version
+
+ -- Gajj Linux <linuxgndu@gmail.com>  Tue, 28 Apr 2015 08:41:06 +0530

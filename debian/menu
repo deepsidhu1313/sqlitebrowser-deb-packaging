@@ -1,0 +1,3 @@
+?package(sqlitebrowser):needs="X11" section="Applications/Data Management"       \
+  title="DB Browser for SQLite" command="/usr/bin/sqlitebrowser" \
+  icon="/usr/share/pixmaps/sqlitebrowser.xpm"
