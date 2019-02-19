@@ -1,8 +1,8 @@
-sqlitebrowser (3.10.100ubuntu1) UNRELEASED; urgency=medium
+sqlitebrowser (3.11.1) UNRELEASED; urgency=medium
 
-  * Stable Build
+  * Stable Build 
 
- -- nika <linuxgndu@gmail.com>  Thu, 21 Sep 2017 17:00:59 -0500
+ -- nika <linuxgndu@gmail.com>  Tue, 19 Feb 2019 17:04:23 -0600
 
 sqlitebrowser (3.10.1) UNRELEASED; urgency=medium
 
