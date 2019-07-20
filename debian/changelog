@@ -1,8 +1,8 @@
-sqlitebrowser (3.11.200) UNRELEASED; urgency=medium
+sqlitebrowser (3.11.299) UNRELEASED; urgency=medium
 
-  * Stable build
+  * Nightly build
 
- -- nika <linuxgndu@gmail.com>  Sat, 20 Jul 2019 09:29:19 -0500
+ -- nika <linuxgndu@gmail.com>  Sat, 20 Jul 2019 10:05:22 -0500
 
 sqlitebrowser (3.10.1) UNRELEASED; urgency=medium
 
