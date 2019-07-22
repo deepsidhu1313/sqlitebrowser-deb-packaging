@@ -4,7 +4,7 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@ --parallel 
+	dh $@ --parallel
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DUSE_QT5=True -Dsqlcipher=1
+	dh_auto_configure -- -DUSE_QT5=True -Dsqlcipher=1 -DSQLITE_ENABLE_JSON1=1
