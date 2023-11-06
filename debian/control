@@ -2,9 +2,8 @@ Source: sqlitebrowser
 Section: database
 Priority: extra
 Maintainer: Gajj Linux Developers <linuxgndu@gmail.com>
-Build-Depends: debhelper (= 13), qtbase5-dev, qttools5-dev, qttools5-dev-tools, libsqlite3-dev, cmake, libantlr-dev, libqcustomplot-dev, git, libsqlcipher-dev
+Build-Depends: debhelper (>= 10), qtbase5-dev, qttools5-dev, qttools5-dev-tools, libsqlite3-dev, cmake, libantlr-dev, libqcustomplot-dev, git, libsqlcipher-dev
 Standards-Version: 4.6.2
-Rules-Requires-Root: no
 Homepage: http://sqlitebrowser.org/
 Vcs-Browser: https://github.com/sqlitebrowser/sqlitebrowser.git
 Vcs-Git: git://github.com/sqlitebrowser/sqlitebrowser.git
