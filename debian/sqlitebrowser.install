@@ -1,0 +1,3 @@
+debian/sqlitebrowser.xpm     usr/share/pixmaps/
+images/logo.svg     usr/share/pixmaps/sqlitebrowser.svg
+distri/sqlitebrowser.desktop usr/share/applications/
