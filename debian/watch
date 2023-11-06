@@ -1,7 +1,5 @@
-# Compulsory line, this is a version 3 file
-version=3
-
-# Uncomment to find new files on sourceforge, for devscripts >= 2.9
-#http://sf.net/sqlitebrowser/sqlitebrowser-(.*)\.tar\.gz
-# Current upstream versioning of tarballs is not sane, so I'll leave this commented out.
-
+version=4
+opts="searchmode=plain,\
+filenamemangle=s%v?@ANY_VERSION@%@PACKAGE@-$1.tar.xz%" \
+https://api.github.com/repos/@PACKAGE@/@PACKAGE@/releases?per_page=50 \
+https://api.github.com/repos/[^/]+/[^/]+/tarball/v?@ANY_VERSION@

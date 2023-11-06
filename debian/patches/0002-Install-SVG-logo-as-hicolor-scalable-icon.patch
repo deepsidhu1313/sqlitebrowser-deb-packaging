@@ -1,0 +1,27 @@
+From: Pino Toscano <toscano.pino@tiscali.it>
+Date: Sat, 10 Oct 2020 10:07:29 +0200
+Subject: Install SVG logo as hicolor scalable icon
+
+Install the SVG logo as scalable icon in the global hicolor icon theme:
+this way, application launchers/browsers that show icons bigger than
+256 pixels can show a good-looking icon from the SVG logo instead of
+upscaling the 256px PNG icon.
+---
+ CMakeLists.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index d0209c5..56a3864 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -500,6 +500,10 @@ if(UNIX)
+ 	install(FILES src/icons/${PROJECT_NAME}.png
+ 		DESTINATION share/icons/hicolor/256x256/apps/)
+ 
++	install(FILES images/logo.svg
++		DESTINATION share/icons/hicolor/scalable/apps/
++		RENAME ${PROJECT_NAME}.svg)
++
+ 	install(FILES distri/${PROJECT_NAME}.desktop
+ 		DESTINATION share/applications/)
+ 
